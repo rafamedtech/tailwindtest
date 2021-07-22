@@ -8,7 +8,7 @@ export const actions = {
   async loadPosts({ commit }) {
     // Obtener los posts
     let { data } = await this.$axios.get(
-      "https://jsonplaceholder.typicode.com/posts"
+      "https://my-json-server.typicode.com/rafamedtech/tailwindtest/posts"
     );
 
     console.log(data);

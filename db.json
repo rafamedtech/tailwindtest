@@ -9,6 +9,11 @@
       "id": 2,
       "title": "Mi nombre es Rafael",
       "body": "Hola mi nombre es Rafael"
+    },
+    {
+      "id": 3,
+      "title": "Hola soy el post numero 3",
+      "body": "Este es el ultimo post que acabo de agregar"
     }
   ]
 }
