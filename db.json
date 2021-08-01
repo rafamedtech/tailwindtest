@@ -3,6 +3,7 @@
     "categories": [
       {
         "Categorie 1": {
+          "categorieName": "Categorie 1",
           "categorieImage": "https://images.unsplash.com/photo-1597950363715-49b0599efa03?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80",
           "posts": [
             {
@@ -31,6 +32,7 @@
       },
       {
         "Categorie 2": {
+          "categorieName": "Categorie 1",
           "categorieImage": "https://images.unsplash.com/photo-1597950363715-49b0599efa03?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80",
           "posts": [
             {
@@ -59,6 +61,7 @@
       },
       {
         "Categorie 3": {
+          "categorieName": "Categorie 1",
           "categorieImage": "https://images.unsplash.com/photo-1597950363715-49b0599efa03?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80",
           "posts": [
             {
