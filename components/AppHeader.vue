@@ -1,7 +1,7 @@
 <template>
-  <header class="flex bg-gray-600 justify-between shadow-md ">
+  <header class="flex  justify-between shadow-md ">
     <nuxt-link to="/" class=" h-full flex items-center ml-5">
-      <img class=" w-32" src="~/assets/logo.png" alt="" />
+      <img class=" w-32" src="~assets/images/logo.png" alt="" />
     </nuxt-link>
     <nav class="my-auto mr-5">
       <ul class="flex items-center text-white">

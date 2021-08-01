@@ -1,3 +1,14 @@
 <template>
-  <h1>This is the contact section</h1>
+  <div>
+    <AppForm />
+  </div>
 </template>
+
+<script>
+import AppForm from "@/components/AppForm";
+export default {
+  components: {
+    AppForm
+  }
+};
+</script>

@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  body {
+    @apply bg-gradient-to-br from-[#1f252d] via-[#36414e] to-[#1f252d] selection:bg-[#00ACBF] bg-no-repeat overflow-y-scroll;
+  }
+  body::-webkit-scrollbar {
+    display: none;
+    background: transparent;
+  }
+}
+
+@layer utilities {
+  input[type="submit"] {
+    transition: all 0.4s ease;
+  }
+}

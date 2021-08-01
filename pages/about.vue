@@ -1,5 +1,7 @@
 <template>
-  <h1>This is the About Section</h1>
+  <div>
+    <h1>This is the About Section</h1>
+  </div>
 </template>
 
 <script>

@@ -9,7 +9,22 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {}
+    extend: {
+      colors: {
+        portfolio: {
+          primary: "#00ACBF"
+        }
+      },
+      fontSize: {
+        portfolio: "16px"
+      },
+      height: {
+        "200": "180px"
+      },
+      margin: {
+        portfolio: "20px"
+      }
+    }
   },
   variants: {
     extend: {}

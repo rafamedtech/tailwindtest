@@ -1,19 +1,90 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "Mi nombre es Paty",
-      "body": "Hola mi nombre es Patricia"
-    },
-    {
-      "id": 2,
-      "title": "Mi nombre es Rafael",
-      "body": "Hola mi nombre es Rafael"
-    },
-    {
-      "id": 3,
-      "title": "Hola soy el post numero 3",
-      "body": "Este es el ultimo post que acabo de agregar"
-    }
-  ]
+  "data": {
+    "categories": [
+      {
+        "Categorie 1": {
+          "categorieImage": "https://images.unsplash.com/photo-1597950363715-49b0599efa03?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80",
+          "posts": [
+            {
+              "id": 1,
+              "title": "My title",
+              "categorie": "Categorie 1",
+              "postImage": "https://images.unsplash.com/photo-1626935288764-9cbd6d1c314d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=676&q=80",
+              "Body": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis recusandae neque fugit accusantium quas deserunt corrupti consectetur, consequatur, illum aperiam facilis in ipsum voluptatum dolore! Ratione commodi ea labore accusantium quaerat iusto, necessitatibus dignissimos magnam pariatur nesciunt ex architecto qui quas mollitia aliquid consequuntur omnis fugit? Perspiciatis adipisci fugiat animi eos rerum deserunt autem perferendis accusantium! Asperiores culpa veniam in iure id delectus sunt, labore quisquam quaerat, ex obcaecati eaque mollitia, magnam aspernatur dolor at voluptate deserunt voluptatem libero? Hic, tempore mollitia corrupti natus vel culpa modi iure eligendi assumenda rem quae consequuntur possimus, similique, corporis quisquam esse quos ipsum!"
+            },
+            {
+              "id": 2,
+              "title": "My title",
+              "categorie": "Categorie 1",
+              "postImage": "https://images.unsplash.com/photo-1626935288764-9cbd6d1c314d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=676&q=80",
+              "Body": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis recusandae neque fugit accusantium quas deserunt corrupti consectetur, consequatur, illum aperiam facilis in ipsum voluptatum dolore! Ratione commodi ea labore accusantium quaerat iusto, necessitatibus dignissimos magnam pariatur nesciunt ex architecto qui quas mollitia aliquid consequuntur omnis fugit? Perspiciatis adipisci fugiat animi eos rerum deserunt autem perferendis accusantium! Asperiores culpa veniam in iure id delectus sunt, labore quisquam quaerat, ex obcaecati eaque mollitia, magnam aspernatur dolor at voluptate deserunt voluptatem libero? Hic, tempore mollitia corrupti natus vel culpa modi iure eligendi assumenda rem quae consequuntur possimus, similique, corporis quisquam esse quos ipsum!"
+            },
+            {
+              "id": 3,
+              "title": "My title",
+              "categorie": "Categorie 1",
+              "postImage": "https://images.unsplash.com/photo-1626935288764-9cbd6d1c314d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=676&q=80",
+              "Body": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis recusandae neque fugit accusantium quas deserunt corrupti consectetur, consequatur, illum aperiam facilis in ipsum voluptatum dolore! Ratione commodi ea labore accusantium quaerat iusto, necessitatibus dignissimos magnam pariatur nesciunt ex architecto qui quas mollitia aliquid consequuntur omnis fugit? Perspiciatis adipisci fugiat animi eos rerum deserunt autem perferendis accusantium! Asperiores culpa veniam in iure id delectus sunt, labore quisquam quaerat, ex obcaecati eaque mollitia, magnam aspernatur dolor at voluptate deserunt voluptatem libero? Hic, tempore mollitia corrupti natus vel culpa modi iure eligendi assumenda rem quae consequuntur possimus, similique, corporis quisquam esse quos ipsum!"
+            }
+          ]
+        }
+      },
+      {
+        "Categorie 2": {
+          "categorieImage": "https://images.unsplash.com/photo-1597950363715-49b0599efa03?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80",
+          "posts": [
+            {
+              "id": 1,
+              "title": "My title",
+              "categorie": "Categorie 1",
+              "postImage": "https://images.unsplash.com/photo-1626935288764-9cbd6d1c314d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=676&q=80",
+              "Body": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis recusandae neque fugit accusantium quas deserunt corrupti consectetur, consequatur, illum aperiam facilis in ipsum voluptatum dolore! Ratione commodi ea labore accusantium quaerat iusto, necessitatibus dignissimos magnam pariatur nesciunt ex architecto qui quas mollitia aliquid consequuntur omnis fugit? Perspiciatis adipisci fugiat animi eos rerum deserunt autem perferendis accusantium! Asperiores culpa veniam in iure id delectus sunt, labore quisquam quaerat, ex obcaecati eaque mollitia, magnam aspernatur dolor at voluptate deserunt voluptatem libero? Hic, tempore mollitia corrupti natus vel culpa modi iure eligendi assumenda rem quae consequuntur possimus, similique, corporis quisquam esse quos ipsum!"
+            },
+            {
+              "id": 2,
+              "title": "My title",
+              "categorie": "Categorie 1",
+              "postImage": "https://images.unsplash.com/photo-1626935288764-9cbd6d1c314d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=676&q=80",
+              "Body": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis recusandae neque fugit accusantium quas deserunt corrupti consectetur, consequatur, illum aperiam facilis in ipsum voluptatum dolore! Ratione commodi ea labore accusantium quaerat iusto, necessitatibus dignissimos magnam pariatur nesciunt ex architecto qui quas mollitia aliquid consequuntur omnis fugit? Perspiciatis adipisci fugiat animi eos rerum deserunt autem perferendis accusantium! Asperiores culpa veniam in iure id delectus sunt, labore quisquam quaerat, ex obcaecati eaque mollitia, magnam aspernatur dolor at voluptate deserunt voluptatem libero? Hic, tempore mollitia corrupti natus vel culpa modi iure eligendi assumenda rem quae consequuntur possimus, similique, corporis quisquam esse quos ipsum!"
+            },
+            {
+              "id": 3,
+              "title": "My title",
+              "categorie": "Categorie 1",
+              "postImage": "https://images.unsplash.com/photo-1626935288764-9cbd6d1c314d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=676&q=80",
+              "Body": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis recusandae neque fugit accusantium quas deserunt corrupti consectetur, consequatur, illum aperiam facilis in ipsum voluptatum dolore! Ratione commodi ea labore accusantium quaerat iusto, necessitatibus dignissimos magnam pariatur nesciunt ex architecto qui quas mollitia aliquid consequuntur omnis fugit? Perspiciatis adipisci fugiat animi eos rerum deserunt autem perferendis accusantium! Asperiores culpa veniam in iure id delectus sunt, labore quisquam quaerat, ex obcaecati eaque mollitia, magnam aspernatur dolor at voluptate deserunt voluptatem libero? Hic, tempore mollitia corrupti natus vel culpa modi iure eligendi assumenda rem quae consequuntur possimus, similique, corporis quisquam esse quos ipsum!"
+            }
+          ]
+        }
+      },
+      {
+        "Categorie 3": {
+          "categorieImage": "https://images.unsplash.com/photo-1597950363715-49b0599efa03?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80",
+          "posts": [
+            {
+              "id": 1,
+              "title": "My title",
+              "categorie": "Categorie 1",
+              "postImage": "https://images.unsplash.com/photo-1626935288764-9cbd6d1c314d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=676&q=80",
+              "Body": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis recusandae neque fugit accusantium quas deserunt corrupti consectetur, consequatur, illum aperiam facilis in ipsum voluptatum dolore! Ratione commodi ea labore accusantium quaerat iusto, necessitatibus dignissimos magnam pariatur nesciunt ex architecto qui quas mollitia aliquid consequuntur omnis fugit? Perspiciatis adipisci fugiat animi eos rerum deserunt autem perferendis accusantium! Asperiores culpa veniam in iure id delectus sunt, labore quisquam quaerat, ex obcaecati eaque mollitia, magnam aspernatur dolor at voluptate deserunt voluptatem libero? Hic, tempore mollitia corrupti natus vel culpa modi iure eligendi assumenda rem quae consequuntur possimus, similique, corporis quisquam esse quos ipsum!"
+            },
+            {
+              "id": 2,
+              "title": "My title",
+              "categorie": "Categorie 1",
+              "postImage": "https://images.unsplash.com/photo-1626935288764-9cbd6d1c314d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=676&q=80",
+              "Body": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis recusandae neque fugit accusantium quas deserunt corrupti consectetur, consequatur, illum aperiam facilis in ipsum voluptatum dolore! Ratione commodi ea labore accusantium quaerat iusto, necessitatibus dignissimos magnam pariatur nesciunt ex architecto qui quas mollitia aliquid consequuntur omnis fugit? Perspiciatis adipisci fugiat animi eos rerum deserunt autem perferendis accusantium! Asperiores culpa veniam in iure id delectus sunt, labore quisquam quaerat, ex obcaecati eaque mollitia, magnam aspernatur dolor at voluptate deserunt voluptatem libero? Hic, tempore mollitia corrupti natus vel culpa modi iure eligendi assumenda rem quae consequuntur possimus, similique, corporis quisquam esse quos ipsum!"
+            },
+            {
+              "id": 3,
+              "title": "My title",
+              "categorie": "Categorie 1",
+              "postImage": "https://images.unsplash.com/photo-1626935288764-9cbd6d1c314d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=676&q=80",
+              "Body": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis recusandae neque fugit accusantium quas deserunt corrupti consectetur, consequatur, illum aperiam facilis in ipsum voluptatum dolore! Ratione commodi ea labore accusantium quaerat iusto, necessitatibus dignissimos magnam pariatur nesciunt ex architecto qui quas mollitia aliquid consequuntur omnis fugit? Perspiciatis adipisci fugiat animi eos rerum deserunt autem perferendis accusantium! Asperiores culpa veniam in iure id delectus sunt, labore quisquam quaerat, ex obcaecati eaque mollitia, magnam aspernatur dolor at voluptate deserunt voluptatem libero? Hic, tempore mollitia corrupti natus vel culpa modi iure eligendi assumenda rem quae consequuntur possimus, similique, corporis quisquam esse quos ipsum!"
+            }
+          ]
+        }
+      }
+    ]
+  }
 }

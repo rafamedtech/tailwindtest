@@ -14,3 +14,10 @@ export default {
   }
 };
 </script>
+
+<style>
+body {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+</style>

@@ -17,7 +17,10 @@ export default {
           name: "description",
           content: "This is my porfolio website"
         }
-      ]
+      ],
+      htmlAttrs: {
+        lang: "en"
+      }
     };
   },
   components: AppHero
