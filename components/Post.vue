@@ -1,6 +1,6 @@
 <template>
   <div
-    class=" mb-16 mx-4 w-full h-60 flex flex-col justify-center p-4 shadow-myShadow rounded-xl relative"
+    class=" h-[300px] w-full flex flex-col justify-center p-4 shadow-myShadow rounded-xl relative"
   >
     <img
       class="w-full inset-0 rounded-xl filter brightness-75 object-cover absolute z-[-1]"
