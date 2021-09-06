@@ -1,10 +1,10 @@
 <template>
   <div
-    class=" h-[300px] w-full flex flex-col justify-center p-4 shadow-myShadow rounded-xl relative"
+    class=" h-60 w-full flex flex-col justify-center p-4 shadow-myShadow rounded-xl relative"
   >
     <img
-      class="w-full inset-0 rounded-xl filter brightness-75 object-cover absolute z-[-1]"
-      src="https://images.unsplash.com/photo-1630576904866-d51b579796f8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=778&q=80"
+      class="w-full h-full inset-0 rounded-xl filter brightness-[0.40] object-cover absolute z-[-1]"
+      :src="post.image"
       alt=""
     />
     <h1 class=" text-xl font-bold text-portfolio-primary">{{ post.title }}</h1>
