@@ -4,9 +4,10 @@
       <img class=" w-32" src="~assets/images/logo.png" alt="" />
     </nuxt-link>
     <nav class="my-auto mr-5">
+      <button @click="enableDarkMode()">Dark Mode</button>
       <ul class="flex items-center text-white">
         <nuxt-link class="mx-2" to="/blog">Blog</nuxt-link>
-        <nuxt-link class="mx-2" to="/about">About</nuxt-link>
+        <nuxt-link class="mx-2" to="/projects">Projects</nuxt-link>
         <nuxt-link class="mx-2" to="/contact">Contact</nuxt-link>
       </ul>
     </nav>
@@ -15,7 +16,18 @@
 
 <script>
 export default {
-  name: "AppHeader"
+  name: "AppHeader",
+  // computed: {
+  //   darkMode() {
+  //     return this.$store.getters["counter"];
+  //   }
+  // },
+
+  methods: {
+    enableDarkMode() {
+      this.$store.dispatch("darkMode");
+    }
+  }
 };
 </script>
 

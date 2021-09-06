@@ -1,6 +1,6 @@
 // Este sera nuestro almacenamiento central
 export const state = () => ({
-  _counter: 0
+  _darkMode: false
 });
 
 //Getters
@@ -23,18 +23,27 @@ export const actions = {
    */
   async nuxtServerInit({ dispatch }, context) {
     await dispatch("posts/loadPosts");
+    await dispatch("projects/loadProjects");
   },
 
-  sumarDos({ commit }) {
-    commit("increment");
-    commit("increment");
+  darkMode({ commit }) {
+    commit("enableDarkMode");
   }
 };
 
 //Mutadores
 //El unico fin de los mutadores es mutar o modificar el state o almacenamiento
 export const mutations = {
-  increment(state) {
-    state._counter++;
+  enableDarkMode(state) {
+    state._darkMode = !state._darkMode;
+    if (state._darkMode) {
+      document.body.classList.add("bg-gradient-to-br");
+      document.body.classList.add("from-[#ccc]");
+      document.body.classList.add("via-[#36414e]");
+      document.body.classList.add("to-[#ccc]");
+    } else {
+      document.body.classList.remove("lightmode");
+    }
+    console.log(state._darkMode);
   }
 };

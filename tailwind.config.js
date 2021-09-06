@@ -23,6 +23,12 @@ module.exports = {
       },
       margin: {
         portfolio: "20px"
+      },
+      objectPosition: {
+        "center-top": "center top"
+      },
+      boxShadow: {
+        myShadow: "0 3px 15px rgba(0, 0, 0, 0.3)"
       }
     }
   },

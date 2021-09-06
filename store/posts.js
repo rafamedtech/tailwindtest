@@ -11,7 +11,7 @@ export const actions = {
       "https://my-json-server.typicode.com/rafamedtech/tailwindtest/posts"
     );
 
-    console.log(data);
+    // console.log(data);
 
     // Realizar un commit
     commit("setPosts", data);

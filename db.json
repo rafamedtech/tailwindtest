@@ -3,17 +3,47 @@
     {
       "id": 1,
       "title": "Mi nombre es Paty",
-      "body": "Hola mi nombre es Patricia"
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident saepe cum suscipit assumenda, sunt nobis perspiciatis fugit ullam odio aliquam."
     },
     {
       "id": 2,
-      "title": "Mi nombre es Rafael",
-      "body": "Hola mi nombre es Rafael"
+      "title": "test",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident saepe cum suscipit assumenda, sunt nobis perspiciatis fugit ullam odio aliquam."
     },
     {
       "id": 3,
       "title": "Hola soy el post numero 3",
-      "body": "Este es el ultimo post que acabo de agregar"
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident saepe cum suscipit assumenda, sunt nobis perspiciatis fugit ullam odio aliquam."
+    },
+    {
+      "id": 4,
+      "title": "Hola soy el post numero 4",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident saepe cum suscipit assumenda, sunt nobis perspiciatis fugit ullam odio aliquam."
+    },
+    {
+      "id": 5,
+      "title": "Hola soy el post numero 5",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident saepe cum suscipit assumenda, sunt nobis perspiciatis fugit ullam odio aliquam."
+    },
+    {
+      "id": 6,
+      "title": "Hola soy el post numero 6",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident saepe cum suscipit assumenda, sunt nobis perspiciatis fugit ullam odio aliquam."
+    },
+    {
+      "id": 7,
+      "title": "Hola soy el post numero 7",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident saepe cum suscipit assumenda, sunt nobis perspiciatis fugit ullam odio aliquam."
+    },
+    {
+      "id": 8,
+      "title": "Hola soy el post numero 8",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident saepe cum suscipit assumenda, sunt nobis perspiciatis fugit ullam odio aliquam."
+    },
+    {
+      "id": 9,
+      "title": "Hola soy el post numero 9",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident saepe cum suscipit assumenda, sunt nobis perspiciatis fugit ullam odio aliquam."
     }
   ],
   "categories": [

@@ -1,15 +1,8 @@
 <template>
   <div class="flex flex-col lg:flex-row items-center justify-around">
-    <div class="flex flex-col-reverse lg:flex-col items-center justify-center">
-      <h1 class="mt-4 ml-4 text-white text-4xl">
-        Let's start working together 🚀
-      </h1>
-      <img class=" w-96 h-96" src="~assets/images/deal.svg" alt="" />
-    </div>
-
     <div class=" bg-transparent w-96 h-[85vh] flex justify-center items-center">
       <form
-        class=" h-[80%] w-full border border-portfolio-primary flex flex-col justify-evenly px-8 my-4 rounded-xl shadow-2xl"
+        class=" h-[80%] w-full shadow-myShadow flex flex-col justify-evenly px-8 my-4 rounded-xl"
         action=""
       >
         <label class="text-portfolio text-white" for="name">Name</label>
